@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html
+xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml">
+<!--[if IE 7 ]>    <html class="ie ie7 scripts-not-loaded" lang="en" xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml" > <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 scripts-not-loaded" lang="en" xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if gte IE 9 ]><html class="ie ie9 scripts-not-loaded" lang="en" xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if !(IE)]><!--> <html class="not-ie scripts-not-loaded" lang="en" ,
+xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml"
+> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Log In to Canvas</title>
+  <!--[if lte IE 8]> <meta http-equiv=refresh content="0; URL=/ie-8-is-not-supported.html" /> <![endif]-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/font-awesome.min.css" media="screen" rel="stylesheet" />
+
+  <link href="/dist/images/favicon-e49aabf8ad.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="/dist/images/apple-touch-icon-585e5d997d.png" rel="apple-touch-icon" />
+
+
+  <!-- Google Analytics script -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-31883797-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- VdoCipher -->
+  <script src="https://dev.vdocipher.com/playerAssets/1.6.10/vdo.js"></script>
+
+  
+    <!-- DGM script here-->
+  <script type="text/javascript">
+    (function () {
+      var a73 = document.createElement('script');
+      a73.type = 'text/javascript';
+      a73.async = true;
+      a73.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'az686941.vo.msecnd.net/assets/34_a73.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(a73, s);
+    })();
+  </script>
+  <!-- DGM script ends here -->
+  <link href="/dist/brandable_css/legacy_normal_contrast/bundles/common-42ccfd220c.css" media="all" rel="stylesheet" />
+
+  
+  
+  <link href="/dist/brandable_css/legacy_normal_contrast/bundles/login-77e1514d34.css" media="all" rel="stylesheet" />
+  
+  
+
+  <script>
+    // listen for any clicks on links that have href="#" and queue them to be fired on dom ready.
+      function _earlyClick(e){
+        var cur = e.target || e.srcElement;
+        while ( cur && cur.ownerDocument ) {
+          if ( cur.getAttribute('href') == '#' ) {
+            e.preventDefault();
+            _earlyClick.clicks = _earlyClick.clicks || [];
+            _earlyClick.clicks.push(cur);
+            break;
+          }
+          cur = cur.parentNode;
+        }
+      }
+      document.addEventListener('click', _earlyClick);
+  </script>
+  <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0077/6901.js" async="async"></script>
+</head>
+
+<body data-tourian="false">
+  <noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+  
+<ul role="alert" aria-live="assertive" id="flash_message_holder"></ul>
+<div role="alert" aria-live="assertive" id="flash_screenreader_holder" class="screenreader-only"></div>
+
+  <div class="wrapper">
+    <div id="instructure_ajax_error_box">
+      <div style="text-align: right; background-color: #fff;">
+        <a href="#" class="close_instructure_ajax_error_box_link">Close</a>
+      </div>
+      <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;"></iframe>
+    </div>
+
+    
+
+    <div id="main-container" class="">
+      <div class="wrapper">
+          
+
+  
+<div id="bkg-container">
+  <div class="overlay"></div>
+</div>
+
+<div id="layer-container">
+  <div class="layer">
+    <div class="side-pane">
+      <div class="content">
+        <div class="header">Sign in</div>
+        <div class="desc">
+          Welcome to the Jigsaw Academy Learning Center.<br/><br/>
+          Please sign-in to access your course materials and videos.
+        </div>
+
+        <div class="logo" style="position: static; margin-top: 4vh;">
+          <img alt="Jigsaw manipal logoweb" src="/images/JA_Logo_White_300x70.png" style="width:100% !important;left:-0.5vw !important;bottom: 0.5vw !important;">
+          <div>
+            <div>Jigsaw Learning Center</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-container">
+      <div class="page active" id="login-soc">
+        <div>
+          Select a social account to sign in.
+          <a href="/login/facebook"><i class="fa fa-lg fa-fw fa-facebook"></i><span>Sign in with</span>&nbsp;<span>Facebook</span></span></a>
+          <a href="/login/google"><i class="fa fa-lg fa-fw fa-google-plus"></i><span>Sign in with</span>&nbsp;<span>Google+</span></span></a>
+          <a href="/login/linkedin"><i class="fa fa-lg fa-fw fa-linkedin"></i><span>Sign in with</span>&nbsp;<span>LinkedIn</span></span></a>
+          <div id="switch-corp" class="switch">Corporate user? Click here.</div>
+        </div>
+      </div>
+
+      <div class="page" id="login-corp">
+      <form accept-charset="UTF-8" action="/login/canvas" id="login_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="wMdBKQawUgQEMHXCkXtt/fNpi2KmGS1jPX9pKlHwyOX29hdiNeA8cFYHQJepUDWxphnYC9N6VzN+NC9mJJSNsQ==" /></div>
+        <div>
+          <br/>
+          <label for="txt-email" style="font-weight: bold!important;">Email or JLC User ID</label>
+          <!-- <input type="email" id="txt-email" name="email" class="field" value="" tabindex="1" /> -->
+          <input class="field" id="txt-email" name="pseudonym_session[unique_id]" type="text" />
+          <label for="txt-password" class="inline" style="font-weight: bold!important;">Password</label>
+          <input class="field" id="txt-password" name="pseudonym_session[password]" type="password" />
+          <label for="txt-password" id="pass-reset" class="switch">Forgot Your Password?</label>
+          <!-- <input type="password" id="txt-password" name="password" class="field" value="" tabindex="2" /> -->
+
+          <div id="switch-soc" class="switch">Social login? Click here</div>
+
+          <button class="button skewed" id="btn-lms" tabindex="3" type="submit">
+            <span class="button-main-text">Sign In</span>
+            <span class="button-main-arrow-image">
+                <img class="image-icon" src="http://jaws.jigsawacademy.com/media/jaws/frontend/images/long-arrow-orange.png">
+            </span>
+          </button>
+
+        </div>
+</form>    </div>
+    <div class="page" id="corp-pass">
+      <form accept-charset="UTF-8" action="/forgot_password" id="forgot_password_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="08PQVipQSGNgor7ZV1g+O07HMyeOiLtjwGqo7VeiCvzl8oYdGQAmFzKVi4xvc2Z3G7dgTvvrwTODIe6hIsZPqA==" /></div>
+      <div>
+        <div>Enter your account ID and we will mail you a link to reset your password.</div>
+        <br/><br/>
+
+        <label for="txt-email">Email</label>
+        <!-- <input type="email" id="txt-email" name="email" class="field" value="" tabindex="1" />   -->
+        <input aria-describedby="forgot_password_instructions" class="email_address field" type="text" name="pseudonym_session[unique_id_forgot]"
+          value="" id="txt-email" />
+
+        <div id="switch-corp-back" class="switch">&#8592;&nbsp;Go back</div>
+
+            <button class="button skewed" id="btn-reset" tabindex="3" type="submit">
+              <span class="button-main-text">Reset Password</span>
+              <span class="button-main-arrow-image">
+                  <img class="image-icon" src="http://jaws.jigsawacademy.com/media/jaws/frontend/images/long-arrow-orange.png">
+              </span>
+            </button>
+        </div>
+</form>    </div>
+  </div>
+</div>
+
+
+
+
+
+        <div id="footer">
+          <div id="footer-copyright">
+            &copy; Jigsaw Academy
+          </div>
+
+          <div id="footer-links">
+            <a href="/terms_of_use" target="_blank">Terms</a>
+            <a href="http://www.jigsawacademy.com/privacy-policy/" target="_blank">Privacy</a>
+            <!-- <a href="https://oldui.jigsawacademy.net" target="_blank" style="text-transform: none;" id="switch-old-ui">Switch to Old UI</a> -->
+            <!-- <a href="https://app.smartsheet.com/b/form?EQBCT=bbb77857070549de8d082a014e96b5fa" target="_blank" id="feedback">Write feedback</a> -->
+          </div>
+          <!-- <div style="top: 1vw; left: 28vw;position: absolute">
+            <a href="https://app.smartsheet.com/b/form/5b064b9541e743aab021de0e3dc83fc3" target="_blank">
+             <img alt="Holiday support@300x 20ec693c6f" src="/dist/images/Holiday Support@300x-20ec693c6f.png" style="height:auto;width:1.6vw;" />
+             <span style="top: 0.4vw; padding-left:1vw;font-size: 1.2vw; position: relative; color: rgba(0, 0, 0, 0.5);"><strong>Click for Holiday Support</strong></span>
+</a>          </div> -->
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div id="user-container" class="corner">
+        <script type="text/javascript">
+  document.getElementById("user-container").onmouseover =  function() {
+    document.getElementById("profile-text").style.display = 'none';
+  };
+  document.getElementById("user-container").onmouseout = function() {
+    document.getElementById("profile-text").style.display = 'block';
+  };
+</script>
+
+
+    </div>
+
+    
+
+    <div id="alert-container" class="corner">
+      <div class="overlay"></div>
+    </div>
+
+    <div id="msg-container" class="corner">
+      <div class="overlay"></div>
+    </div>
+
+    <div id="search-container" class=""></div>
+
+
+    <div id='ripple-container'>
+      <div id='ripple'></div>
+    </div>
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+    </div>
+      <div id="cant_record_dialog" style="display: none;">
+  <div>
+    In order to create video or audio recordings your computer needs to be 
+    webcam-enabled.  If you don&#39;t have a webcam on your computer, you can still
+    record audio-only messages by first installing the Google Video Chat
+    plugin.
+  </div>
+  <div style="text-align: center; font-size: 1.5em; margin: 10px;">
+    <a href="http://www.google.com/chat/video" target="_blank" class="btn">Install the Video Plugin</a>
+  </div>
+  <div class="links" style="text-align: right; font-size: 0.8em; display: none;">
+    <a href="#" class="cant_record_link">Don&#39;t have a webcam?</a>
+  </div>
+</div>
+    <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+    <script>
+  INST = {"environment":"production","disableScribdPreviews":true,"enableHtml5FirstVideos":true,"maxVisibleEditorButtons":3,"editorButtons":[]};
+  ENV = {"ASSET_HOST":null,"active_brand_config":null,"url_to_what_gets_loaded_inside_the_tinymce_editor_css":"\/dist\/brandable_css\/legacy_normal_contrast\/bundles\/what_gets_loaded_inside_the_tinymce_editor-acb2221ac0.css","current_user_id":null,"current_user":{},"current_user_roles":null,"files_domain":"jigsawacademy.net","DOMAIN_ROOT_ACCOUNT_ID":10000000000001,"use_new_styles":false,"k12":false,"use_high_contrast":null,"Wistia_Plugin_disable":false,"SETTINGS":{"open_registration":false},"context_asset_string":null,"TIMEZONE":"Asia\/Kolkata","LOCALE":"en-US","TOURS":null,"USER_PREFERENCES":null,"notices":[]};
+
+    // TODO: move this out when we have a single require call
+    require = {
+      translate: true,
+      baseUrl: '/optimized',
+      paths: {
+    "common":"compiled\/bundles\/common",
+    "jqueryui":"vendor\/jqueryui",
+    "compiled\/tinymce":"compiled\/tinymce.js?v2",
+    "canvas_quizzes":"client_apps\/canvas_quizzes",
+    "app\/config\/environments\/production":"empty:"},
+      packages : [{"name":"ic-ajax","location":"bower\/ic-ajax\/dist\/amd"},{"name":"ic-styled","location":"bower\/ic-styled"},{"name":"ic-menu","location":"bower\/ic-menu"},{"name":"ic-tabs","location":"bower\/ic-tabs\/dist\/amd"},{"name":"ic-droppable","location":"bower\/ic-droppable\/dist\/amd"},{"name":"ic-sortable","location":"bower\/ic-sortable\/dist\/amd"},{"name":"ic-modal","location":"bower\/ic-modal\/dist\/amd"},{"name":"ic-lazy-list","location":"bower\/ic-lazy-list"},{"name":"ember-qunit","location":"bower\/ember-qunit\/dist\/amd"}],
+      shim: {
+    'bower/react-router/build/umd/ReactRouter': {
+      deps: ['react'],
+      exports: 'ReactRouter'
+    },
+    'bower/react-tray/dist/react-tray': {
+      deps: ['react']
+    },
+    'bower/react-modal/dist/react-modal': {
+      deps: ['react']
+    },
+    'bower/react-tokeninput/dist/react-tokeninput': {
+      deps: ['react'],
+    },
+    'bower/react-select-box/dist/react-select-box': {
+      deps: ['react'],
+    },
+    'bower/ember/ember': {
+      deps: ['jquery', 'handlebars'],
+      exports: 'Ember'
+    },
+    'bower/ember-data/ember-data': {
+      deps: ['ember'],
+      exports: 'DS'
+    },
+    'bower/handlebars/handlebars.runtime': {
+      exports: 'Handlebars'
+    },
+    'bower/reflux/dist/reflux.js': {
+      deps: ['react'],
+      exports: 'Reflux'
+    },
+    'vendor/FileAPI/FileAPI.min': {
+      deps: ['jquery', 'vendor/FileAPI/config'],
+      exports: 'FileAPI'
+    },
+    'fixed-data-table': {
+      deps: ['object_assign', 'react'],
+      exports: 'fixed-data-table'
+    },
+    'vendor/bootstrap-select/bootstrap-select' : {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'vendor/jquery.jcrop': {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'vendor/jquery.smartbanner': {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'vendor/md5': {
+      exports: 'CryptoJS'
+    },
+    'handlebars': {
+      deps: ['bower/handlebars/handlebars.runtime.amd'],
+      exports: 'Handlebars'
+    },
+    'vendor/i18n': {
+      exports: 'I18n'
+    },
+    'vendor/react-infinite-scroll.min' : {
+      deps: ['react'],
+      exports: 'InfiniteScroll'
+    },
+    'bower/tinymce/tinymce' : {
+      exports: 'tinymce'
+    },
+    'bower/axios/dist/axios' : {
+      exports: 'axios'
+    },
+    'bower/tinymce/themes/modern/theme' : {
+      deps: ['bower/tinymce/tinymce'],
+      exports: 'tinymce'
+    }
+  }
+,
+      map: {"canvas_quizzes":{"lodash":"underscore","d3":"vendor\/d3.v3","backbone":"vendor\/backbone","jquery\/instructure_date_and_time":"jquery.instructure_date_and_time","react":"old_unsupported_dont_use_react","react-router":"old_unsupported_dont_use_react-router"},"*":{"React":"react"}},
+      waitSeconds: 60
+    };
+</script>
+
+  <script src="/dist/optimized/vendor/require-749d0c60e9.js"></script>
+
+<script src="/dist/optimized/compiled/bundles/common-11af66e742.js"></script>
+<script src="/dist/optimized/compiled/bundles/login-54178afb6e.js"></script>
+
+
+
+
+  <script>
+  // Determines if the scripts are loaded.
+  // When we get everything out of the views, and have a single top-level
+  // `require`, this becomes meaningless and will be abandoned.
+  (function() {
+    var attempts = 0;
+    var timeout = 10;
+    var check = function() {
+      attempts++;
+      var done = !window.requirejs.s.contexts._.defQueue.length
+      var giveup = attempts === 100; // 1 second
+      if (done || giveup) {
+        var className = document.documentElement.className;
+        document.documentElement.className = className.replace(/scripts-not-loaded/, '');
+        return;
+      }
+      setTimeout(check, timeout);
+    };
+
+    check();
+  }).call(this);
+  </script>
+
+  </div>
+
+  <div id="tourian-container" class="corner" style="display: none">
+    <div class="overlay">
+      <svg width="100%" height="100%">
+        <defs id="tour-svg-defs">
+          <mask id="tour-mask">
+            <rect id="tour-mask-white" x="0" y="0"  width="100%" height="100%"/>
+            <rect id="tour-mask-black" x="0px" y="0px" width="0px" height="0px"/>
+          </mask>
+        </defs>
+
+        <rect id="tour-svg-rect" x="0" y="0" width="100%" height="100%"/>
+      </svg>
+    </div>
+
+    <div class="overlay-mini"></div>
+
+    <div id="tourian">
+
+      <div id="tour-ctrl-small">
+        <a id="tour-ctrl-stop">EXIT</a>
+        <i class="fa fa-fw fa-lg fa-step-forward" id="tour-ctrl-next-small"></i>
+        <i class="fa fa-fw fa-lg fa-step-backward" id="tour-ctrl-prev"></i>
+      </div>
+
+      <div id="tour-ctrl-big">
+        <div id="tour-timer"></div>
+        <i class="fa fa-fw fa-lg fa-play hotspot tour-ctrl-big" id="tour-ctrl-play"></i>
+        <i class="fa fa-fw fa-lg fa-pause hotspot tour-ctrl-big" id="tour-ctrl-pause"></i>
+        <i class="fa fa-fw fa-lg fa-paper-plane hotspot tour-ctrl-big" id="tour-ctrl-next"></i>
+        <i class="fa fa-fw fa-lg fa-mouse-pointer faa-vertical faa-slow animated hotspot tour-ctrl-big" id="tour-ctrl-info"></i>
+      </div>
+
+      <div id="tour-box">
+      </div>
+
+    </div>
+    <div id="tour-highlighter"></div>
+  </div>
+
+  
+</body>
+</html>
+<style type="text/css">
+  @media screen and (max-width: 750px) {
+    div#nav-container div#nav div.menu div.menu-item div.submenu{
+      display: none;
+    }
+  }
+</style>
+
+<script type="text/javascript">
+  require([
+    'jquery'
+  ], function($){
+    $('.has-submenu').click(function(event){
+      $('.submenu').toggle();
+    });
+  });
+  $('#logo').click(function(e){
+    window.location.href = "/";
+
+  });
+</script>
